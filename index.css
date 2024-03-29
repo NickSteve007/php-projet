@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../copie/image/fond.jpeg');
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fotsy{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(248, 248, 248, 0.564);
+    height: 390px;
+    width: 800px;
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.resultat{
+    display: flex;
+    justify-content: center;
+
+}
+ input{
+   width: 130px;
+   display: flex;
+  justify-content: center; 
+  margin-bottom: -25px;
+   border-radius: 50px;
+} 
+
+.boutton{
+    background-color: rgb(238, 120, 177);
+    border-radius: 70px;
+    height: 30px;
+    width: 100;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+a{
+    color: rgba(128, 0, 0, 0.646) ;
+}
+
+label{
+    color: rgb(144, 17, 78) ;
+    font-size:20px;
+}
+
+th{
+    background-color: rgba(238, 120, 177, 0.635); 
+    color: aliceblue;
+    font-weight: bolder;
+    font-size:25px;
+}
